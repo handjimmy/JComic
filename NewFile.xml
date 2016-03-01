@@ -1,0 +1,741 @@
+<record>
+
+    <detail_invd name="Detail InvoiceD" >
+
+        <data>
+
+            <ETL_NO>
+ETL_NO
+            </ETL_NO>
+
+            <INVOICE_NO>
+INVOICE_NO
+            </INVOICE_NO>
+
+            <ITEM_SEQ>
+ITEM_SEQ
+            </ITEM_SEQ>
+
+            <QTY>
+QTY
+            </QTY>
+
+            <PRICE>
+PRICE
+            </PRICE>
+
+            <AMT>
+AMT
+            </AMT>
+
+            <MAT_NO>
+MAT_NO
+            </MAT_NO>
+
+            <MAT_NM>
+MAT_NM
+            </MAT_NM>
+
+            <INV_ITEM>
+INV_ITEM
+            </INV_ITEM>
+        </data>
+    </detail_invd>
+
+    <master name="master" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <VOU_CODE>
+vou_code
+            </VOU_CODE>
+
+            <VOU_KIND>
+vou_kind
+            </VOU_KIND>
+
+            <VOU_PAYTYPE>
+vou_paytype
+            </VOU_PAYTYPE>
+
+            <INV_TYPE>
+inv_type
+            </INV_TYPE>
+
+            <COMP_NO>
+comp_no
+            </COMP_NO>
+
+            <COMP_NM>
+comp_nm
+            </COMP_NM>
+
+            <FACT_NO>
+fact_no
+            </FACT_NO>
+
+            <FACT_NM>
+fact_nm
+            </FACT_NM>
+
+            <DEPT_NO>
+dept_no
+            </DEPT_NO>
+
+            <VOU_NO>
+vou_no
+            </VOU_NO>
+
+            <VOU_DATE>
+vou_date
+            </VOU_DATE>
+
+            <SUP_NO>
+sup_no
+            </SUP_NO>
+
+            <SUP_NM>
+sup_nm
+            </SUP_NM>
+
+            <SUP_ID>
+sup_id
+            </SUP_ID>
+
+            <ACTUAL_SUP>
+actual_sup
+            </ACTUAL_SUP>
+
+            <DOR_NO>
+dor_no
+            </DOR_NO>
+
+            <SHIP_SUP>
+ship_sup
+            </SHIP_SUP>
+
+            <BILL_FACT>
+bill_fact
+            </BILL_FACT>
+
+            <COUN_MK>
+coun_mk
+            </COUN_MK>
+
+            <TOL_INV_AMT>
+tol_inv_amt
+            </TOL_INV_AMT>
+
+            <TOL_INV_TAX>
+tol_inv_tax
+            </TOL_INV_TAX>
+
+            <TOL_INV_TAMT>
+tol_inv_tamt
+            </TOL_INV_TAMT>
+
+            <TOL_TRAFFIC>
+tol_traffic
+            </TOL_TRAFFIC>
+
+            <TOL_INSURE>
+tol_insure
+            </TOL_INSURE>
+
+            <TOL_OTHERS>
+tol_others
+            </TOL_OTHERS>
+
+            <TOL_AMT>
+tol_amt
+            </TOL_AMT>
+
+            <REB_TAX>
+reb_tax
+            </REB_TAX>
+
+            <PAY_TYPE>
+pay_type
+            </PAY_TYPE>
+
+            <EXPPAY_DATE>
+exppay_date
+            </EXPPAY_DATE>
+
+            <PAY_DATE>
+pay_date
+            </PAY_DATE>
+
+            <DELIVERY_MK>
+delivery_mk
+            </DELIVERY_MK>
+
+            <BORROW_MK>
+borrow_mk
+            </BORROW_MK>
+
+            <NOTE>
+note
+            </NOTE>
+
+            <STORE_TYPE>
+store_type
+            </STORE_TYPE>
+
+            <UNPAY_MK>
+unpay_mk
+            </UNPAY_MK>
+
+            <LICE_NO>
+lice_no
+            </LICE_NO>
+
+            <SENDER_ID>
+sender_id
+            </SENDER_ID>
+
+            <RECEIVE_ID>
+receive_id
+            </RECEIVE_ID>
+
+            <PRE_MK>
+pre_mk
+            </PRE_MK>
+
+            <FREI_MK>
+frei_mk
+            </FREI_MK>
+
+            <ATTCHMENT_URL>
+attchment_url
+            </ATTCHMENT_URL>
+
+            <URL_TYPE>
+url_type
+            </URL_TYPE>
+
+            <AREA_NO>
+area_no
+            </AREA_NO>
+
+            <MEMO1>
+MEMO1
+            </MEMO1>
+
+            <MEMO2>
+MEMO2
+            </MEMO2>
+
+            <MEMO3>
+MEMO3
+            </MEMO3>
+
+            <MEMO4>
+MEMO4
+            </MEMO4>
+
+            <MEMO5>
+MEMO5
+            </MEMO5>
+
+            <MEMO6>
+MEMO6
+            </MEMO6>
+
+            <MEMO7>
+MEMO7
+            </MEMO7>
+
+            <MEMO8>
+MEMO8
+            </MEMO8>
+
+            <MEMO9>
+MEMO9
+            </MEMO9>
+
+            <MEMO10>
+MEMO10
+            </MEMO10>
+        </data>
+    </master>
+
+    <detail_borrow name="Detail AP BORROW" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <VOU_NO>
+vou_no
+            </VOU_NO>
+
+            <BORROW_NO>
+borrow_no
+            </BORROW_NO>
+
+            <PAY_AMT>
+pay_amt
+            </PAY_AMT>
+
+            <BORROW_AMT>
+borrow_amt
+            </BORROW_AMT>
+        </data>
+    </detail_borrow>
+
+    <detail_data name="Detail Data" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <ITEM_SEQ>
+item_seq
+            </ITEM_SEQ>
+
+            <ACC_NO>
+acc_no
+            </ACC_NO>
+
+            <SHARE_FACT>
+share_fact
+            </SHARE_FACT>
+
+            <SHARE_DEPT>
+share_dept
+            </SHARE_DEPT>
+
+            <ORD_NO>
+ord_no
+            </ORD_NO>
+
+            <UNIT>
+unit
+            </UNIT>
+
+            <QTY>
+qty
+            </QTY>
+
+            <PRICE>
+price
+            </PRICE>
+
+            <AMT>
+amt
+            </AMT>
+
+            <DOCU_NO>
+docu_no
+            </DOCU_NO>
+
+            <DOCU_ITEM>
+docu_item
+            </DOCU_ITEM>
+
+            <PURD_NO>
+purd_no
+            </PURD_NO>
+
+            <PURD_ITEM>
+purd_item
+            </PURD_ITEM>
+
+            <CHECK_NO>
+check_no
+            </CHECK_NO>
+
+            <CHECK_ITEM>
+check_item
+            </CHECK_ITEM>
+
+            <INSP_NO>
+insp_no
+            </INSP_NO>
+
+            <INSP_ITEM>
+insp_item
+            </INSP_ITEM>
+
+            <OFFSET_NO>
+offset_no
+            </OFFSET_NO>
+
+            <OFFSET_ITEM>
+offset_item
+            </OFFSET_ITEM>
+
+            <RECEIPT_NO>
+receipt_no
+            </RECEIPT_NO>
+
+            <MAT_NO>
+mat_no
+            </MAT_NO>
+
+            <MAT_NM>
+mat_nm
+            </MAT_NM>
+
+            <FIX_NO>
+fix_no
+            </FIX_NO>
+
+            <ASSET_NO>
+asset_no
+            </ASSET_NO>
+
+            <BRAND_NO>
+brand_no
+            </BRAND_NO>
+
+            <REMARK>
+remark
+            </REMARK>
+
+            <INVOICE_TAX>
+ invoice_tax
+            </INVOICE_TAX>
+
+            <PRO_BIDDING_NO>
+pro_bidding_no
+            </PRO_BIDDING_NO>
+
+            <CONTRACT_NO>
+contract_no
+            </CONTRACT_NO>
+
+            <BUILDING_NO>
+building_no
+            </BUILDING_NO>
+
+            <FLOOR_NO>
+floor_no
+            </FLOOR_NO>
+
+            <INS_TAX>
+ins_tax
+            </INS_TAX>
+
+            <DISC_TAX>
+disc_tax
+            </DISC_TAX>
+
+            <TAX_MARK>
+tax_mark
+            </TAX_MARK>
+
+            <FREI_TYPE>
+frei_type
+            </FREI_TYPE>
+
+            <MAT_SUP_MK>
+mat_sup_mk
+            </MAT_SUP_MK>
+
+            <FOC_MK>
+foc_mk
+            </FOC_MK>
+
+            <MAT_NM_EN>
+MAT_NM_EN
+            </MAT_NM_EN>
+
+            <MAT_NM_LOCAL>
+MAT_NM_LOCAL
+            </MAT_NM_LOCAL>
+
+            <MAT_SPECS>
+MAT_SPECS
+            </MAT_SPECS>
+
+            <UNIT_CHN>
+UNIT_CHN
+            </UNIT_CHN>
+
+            <MEMO1>
+MEMO1
+            </MEMO1>
+
+            <MEMO2>
+MEMO2
+            </MEMO2>
+
+            <MEMO3>
+MEMO3
+            </MEMO3>
+
+            <MEMO4>
+MEMO4
+            </MEMO4>
+
+            <MEMO5>
+MEMO5
+            </MEMO5>
+
+            <MEMO6>
+MEMO6
+            </MEMO6>
+        </data>
+    </detail_data>
+
+    <detail_inv name="Detail Invoice" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <VOU_CODE>
+vou_code
+            </VOU_CODE>
+
+            <COMP_NO>
+comp_no
+            </COMP_NO>
+
+            <FACT_NO>
+fact_no
+            </FACT_NO>
+
+            <DEPT_NO>
+dept_no
+            </DEPT_NO>
+
+            <SUP_ID>
+sup_id
+            </SUP_ID>
+
+            <DOR_NO>
+dor_no
+            </DOR_NO>
+
+            <INVOICE_NO>
+invoice_no
+            </INVOICE_NO>
+
+            <INVOICE_DATE>
+invoice_date
+            </INVOICE_DATE>
+
+            <INVOICE_AMT>
+invoice_amt
+            </INVOICE_AMT>
+
+            <INVOICE_TAX>
+invoice_tax
+            </INVOICE_TAX>
+
+            <INVOICE_TAMT>
+invoice_tamt
+            </INVOICE_TAMT>
+
+            <CUST_NO>
+cust_no
+            </CUST_NO>
+
+            <CUST_AMT>
+cust_amt
+            </CUST_AMT>
+
+            <TRAFFIC_AMT>
+traffic_amt
+            </TRAFFIC_AMT>
+
+            <INSURE_AMT>
+insure_amt
+            </INSURE_AMT>
+
+            <OTHERS_AMT>
+others_amt
+            </OTHERS_AMT>
+
+            <TAX_RATE>
+tax_rate
+            </TAX_RATE>
+
+            <INV_FORMAT>
+inv_format
+            </INV_FORMAT>
+
+            <GREEN_TAX>
+green_tax
+            </GREEN_TAX>
+
+            <FREIGH_MK>
+freigh_mk
+            </FREIGH_MK>
+
+            <EINV_MK>
+einv_mk
+            </EINV_MK>
+
+            <INV_TYPE>
+inv_type
+            </INV_TYPE>
+
+            <ACTUAL_SUP_ID>
+actual_sup_id
+            </ACTUAL_SUP_ID>
+
+            <CHECK_CODE>
+check_code
+            </CHECK_CODE>
+
+            <TAX_TYPE>
+tax_type
+            </TAX_TYPE>
+
+            <INV_OFF_KIND>
+inv_off_kind
+            </INV_OFF_KIND>
+
+            <COPY_MK>
+copy_mk
+            </COPY_MK>
+
+            <MEMO1>
+MEMO1
+            </MEMO1>
+
+            <MEMO2>
+MEMO2
+            </MEMO2>
+
+            <MEMO3>
+MEMO3
+            </MEMO3>
+
+            <MEMO4>
+MEMO4
+            </MEMO4>
+
+            <MEMO5>
+MEMO5
+            </MEMO5>
+        </data>
+    </detail_inv>
+
+    <detail_apd_mat name="Detail APD MAT" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <ITEM_SEQ>
+item_seq
+            </ITEM_SEQ>
+
+            <MAT_DESC>
+mat_desc
+            </MAT_DESC>
+
+            <MAT_NO>
+mat_no
+            </MAT_NO>
+
+            <MAT_MK>
+mat_mk
+            </MAT_MK>
+
+            <UNIT>
+unit
+            </UNIT>
+
+            <QTY>
+qty
+            </QTY>
+        </data>
+    </detail_apd_mat>
+
+    <document name="document" >
+
+        <data>
+
+            <ETL_NO>
+etl_no
+            </ETL_NO>
+
+            <VOU_NO>
+vou_no
+            </VOU_NO>
+
+            <COMP_NO>
+comp_no
+            </COMP_NO>
+
+            <FACT_NO>
+fact_no
+            </FACT_NO>
+
+            <VOU_CODE>
+vou_code
+            </VOU_CODE>
+
+            <SENDER_ID>
+sender_id
+            </SENDER_ID>
+
+            <RECEIVE_ID>
+receive_id
+            </RECEIVE_ID>
+
+            <CONTENT_MEDIA>
+content_media
+            </CONTENT_MEDIA>
+
+            <FORMAT_TYPE>
+format_type
+            </FORMAT_TYPE>
+
+            <SOURCE_TYPE>
+source_type
+            </SOURCE_TYPE>
+
+            <ACTION_MK>
+action_mk
+            </ACTION_MK>
+
+            <SENDER_LEVEL>
+1
+            </SENDER_LEVEL>
+
+            <RECEIVE_LEVEL>
+receive_level
+            </RECEIVE_LEVEL>
+
+            <STATUS>
+status
+            </STATUS>
+
+            <TRAN_MK>
+Y
+            </TRAN_MK>
+
+            <NOTE>
+note
+            </NOTE>
+
+            <CREATE_TIME>
+2015/03/02 00:11:22
+            </CREATE_TIME>
+
+            <SENDER_TIME>
+2015/03/03 11:35:21
+            </SENDER_TIME>
+        </data>
+    </document>
+
+</record>
